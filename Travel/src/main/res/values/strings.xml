@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">旅游字惠平台</string>
+    <string name="creative_tao">创意淘</string>
+    <string name="diy">DIY</string>
+    <string name="my_info">我</string>
+    <string name="text_show">文字展示</string>
+    <string name="cancel_button">取消</string>
+    <string name="sure">确 认</string>
+    <string name="search_hint">请输入要搜索的汉字</string>
+    <string name="cancel_text">取消</string>
+    <string name="test_model1">衣服模板</string>
+    <string name="test_model2">杯子模板</string>
+    <string name="test_model3">扇子模板</string>
+    <string name="test_model4">鼠标垫模板</string>
+    <string name="test_model5">灯笼模板</string>
+    <string name="test_model6">盘子模板</string>
+    <string name="fu">汉字”福“剪纸##汉字剪纸图片所谓“福”，在过去是指“信福”、“福气”、“福运”，而现在人对福的理解是“幸福”。无论是现在还是过去，中国的老百姓都有一个共同的愿望，那就是企盼福气的到来。一个“福”字都寄托了人们对幸福生活的向往，也是对美好未来的祝愿。福文化“福”乃“福、禄、寿、喜、财、吉”六大吉祥之首，“求福、纳福、惜福、祝福”又是各种文化现象的概括和代表。##18.8##50*50cm##test_fu.png</string>
+    <string name="fudiao">汉字变形金刚##马到成功（mǎ dào chéng gōng）是指战马一到，立即成功。比喻成功容易而且迅速。出自于杨朔《雪花飘飘》：“你今天旗开得胜，马到成功，连喝三盅。”及郑廷玉《楚昭公》第四折：“只愿你马到功成，奏凯而还。”##29.9##50*20#40cm##test_ma.png</string>
+    <string name="ma">汉字木雕工艺品##浮雕艺术在世界上到处都有，从古埃及到古希腊和古罗马的神庙和墓碑的雕塑，在中国的庙宇、洞窟和君王的陵墓也有许多浮雕艺术，著名的比如有昭陵六骏。埃及的“负”浮雕，浮雕的形象是沉入材料的平面里去的，是世界上绝无仅有的。##99.5##50*20*50cm##test_fudiao.png</string>
+    <string name="minsu">民俗挂饰##中国传统民俗挂饰##6.6##10*4*5cm##test_minsu.png</string>
+    <string name="dong">动（dòng）从重从力，重×力=动 。基本字义：
+        1、改变原来位置或脱离静止状态，与“静”相对：变~，波~，浮~，振~（物体通过一个中心位置，不断作往复运动。亦称“振荡”）。震~（a.颤动或使颤动，如“门窗动动了一下”；b.重大事情或消息使人心不平静，如“动动全国”）。
+        2、使开始发生：发~。 3、使用：~用，~武，~问（客套话，请问）。
+        4、使起作用或变化，使感情起变化：感~，~人心弦，娓娓~听，~容。5、吃（多用于否定式）：这几天不~荤腥。
+        6、非静止的：~画。 7、可变的：~产。8、行为：举~，~作。 9、常常：~辄得咎。</string>
+    <string name="c">asdfasgagasgamnklsklxznvmnasdglmnxclvxz;gnk;ladnsg;lasdgnjoaijeoiwneogfknadvfaiwejfasxmfp[aorjepoamjsdfp[aj</string>
+    <string name="detail">详情</string>
+    <string name="yuan">元</string>
+    <string name="size">规格:</string>
+    <string name="buy_now">立即购买</string>
+    <string name="moral">寓意:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="if_you">如果你无法简洁地表达你的想法，那只说明你不够了解它。</string>
+    <string name="about_me">关于我们</string>
+    <string name="zhaoshanjiaming">招商联盟</string>
+    <string name="selfinfo">个人资料</string>
+    <string name="diyjilu">DIY记录</string>
+    <string name="vision">旅游字慧平台V0.01</string>
+    <string name="zihuicontent">旅游"字"慧产品创意空间主要以成熟的汉字体系为基础，通过互联网平台，结合旅游创意产品开发，形成以旅游创意产品为载体，汉字文化传递为内涵的各种旅游文化产品的创意输出平台。</string>
+    <string name="address">地址：北京联合大学</string>
+    <string name="phone">联系电话：</string>
+    <string name="phonenumber">13011030511</string>
+    <string name="datail">详情咨询：13011030511</string>
+    <string name="headtext">头像</string>
+    <string name="nichen">昵称</string>
+    <string name="index">index</string>
+    <string name="sex">性别</string>
+    <string name="getaddress">收货地址</string>
+    <string name="take_photo">拍照片</string>
+    <string name="get_picture">打开相册</string>
+    <string name="fill_order">填写订单</string>
+    <string name="ok">OK</string>
+    <string name="pay_text">确认支付</string>
+    <string name="real_pay">实付:</string>
+    <string name="login">登 录</string>
+    <string name="register">注 册</string>
+    <string name="the_model">所选模板:</string>
+    <string name="create_date">创建日期:</string>
+    <string name="acount">账号：</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="securate">密码：</string>
+    <string name="uer_id_hint">请输入手机号</string>
+    <string name="uer_pass_hint">请输入密码</string>
+    <string name="name_hint">请输入收件人</string>
+    <string name="adress_hint">请输入收货地址</string>
+    <string name="reciver_name">收件人:</string>
+    <string name="change_adress">修改地址</string>
+    <string name="reciver_adress">收货地址:</string>
+    <string name="set_password">设置密码</string>
+    <string name="register_sucess">注册成功</string>
+    <string name="no_info">抱歉，没有相关信息</string>
+    <string name="phone_hint">请输入手机号</string>
+</resources>

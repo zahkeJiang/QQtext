@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Iword</string>
+    <string name="beidanci">背单词</string>
+    <string name="danciben">生词本</string>
+    <string name="check">查看词意</string>
+    <string name="next">下一个</string>
+</resources>

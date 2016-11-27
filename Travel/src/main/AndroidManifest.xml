@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jy.android.travel">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+
+    <application
+        android:name=".CaptchaApplaction"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_zihui"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="JUHE_KEY"
+                   android:value="84bd0998310149a93f7bcf3e93667df5"/>
+        <activity android:name=".activity.MainActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="adjustPan">
+            #android:windowSoftInputMode="adjustUnspecified|stateHidden">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.DIYMoralActivity">
+
+        </activity>
+        <activity android:name=".activity.ShopActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.BuyActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.PayActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.about_me_activity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.font_content_Activity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.selfinforActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.takephotoActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.zhaoshan_activity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.DIYMarkListActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.DIYShowActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.forgetActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.mimaActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.registerActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.registerSuccessActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.RegisterDenluActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".activity.SetAdressActivity"
+                  android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

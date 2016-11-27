@@ -1,0 +1,56 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/search_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorMain"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/rounded_edittext">
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:completionThreshold="1"
+            android:background="@null"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:hint="@string/search_hint"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/search_image"
+            android:layout_marginRight="8dp"
+            android:src="@android:drawable/ic_menu_search"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+
+        <ImageView
+            android:id="@+id/search_delete_image"
+            android:visibility="gone"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/search_cancel_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:text="@string/cancel_text"/>
+
+</LinearLayout>
